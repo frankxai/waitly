@@ -128,7 +128,7 @@ To run this project on your local machine:
 
 ## License
 
-This template is open-source and available under the [MIT License](LICENSE.md). You are free to use, modify, and distribute it for personal or commercial projects.
+This template is open-source and available under the [MIT License](LICENSE). You are free to use, modify, and distribute it for personal or commercial projects.
 
 ## Support & Contributions
 
