@@ -1,0 +1,4 @@
+project_id = "gfrfcqyprekhazzugdkr"
+
+[functions.growth-capture]
+verify_jwt = false
