@@ -53,7 +53,7 @@ export default function WaitlistForm({ onSuccessChange }: FormProps) {
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({ firstname: name, email }),
+          body: JSON.stringify({ name, email }),
         })
           .then((mailResponse) => {
             if (!mailResponse.ok) {

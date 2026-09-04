@@ -6,7 +6,7 @@ import Demo from "~/components/demo";
 import Faq from "~/components/faq";
 import Footer from "~/components/footer";
 import Hero from "~/components/hero";
-import { Confetti, ConfettiRef } from "~/components/magicui/confetti";
+import { Confetti, type ConfettiRef } from "~/components/magicui/confetti";
 import Powered from "~/components/powered";
 
 export function LandingPage({ waitlistPeople }: { waitlistPeople: number }) {
