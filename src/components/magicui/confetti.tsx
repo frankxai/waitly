@@ -6,8 +6,9 @@ import type {
   Options as ConfettiOptions,
 } from "canvas-confetti";
 import confetti from "canvas-confetti";
+import type React from "react";
 import type { ReactNode } from "react";
-import React, {
+import {
   createContext,
   forwardRef,
   useCallback,

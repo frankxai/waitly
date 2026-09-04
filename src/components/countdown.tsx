@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useState, useCallback, useMemo, useRef } from "react";
-import { motion, AnimatePresence, useReducedMotion } from "motion/react";
+import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import type { Variants } from "motion/react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 interface CountdownProps {
 	period: Date | string | number; // End date for countdown
@@ -74,7 +75,7 @@ export default function Countdown({
 		return num.toString().padStart(2, "0");
 	}, []);
 
-	const containerVariants = useMemo(
+	const containerVariants = useMemo<Variants>(
 		() => ({
 			hidden: { opacity: 0 },
 			visible: {
@@ -88,7 +89,7 @@ export default function Countdown({
 		[prefersReducedMotion],
 	);
 
-	const itemVariants = useMemo(
+	const itemVariants = useMemo<Variants>(
 		() => ({
 			hidden: prefersReducedMotion ? { opacity: 0 } : { y: 20, opacity: 0 },
 			visible: {
