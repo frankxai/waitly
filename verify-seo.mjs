@@ -34,6 +34,7 @@ async function verify() {
   const { data: html, status: htmlStatus } = await fetchHtml('http://localhost:3000/');
 
   console.log('Verifying HTML metadata...');
+  assert.strictEqual(htmlStatus, 200, 'HTML page returned non-200 status');
   assert.ok(html.includes('<title>Idee8 — Next.js + Notion Waitlist Template</title>'), 'Missing or incorrect <title>');
   assert.ok(html.includes('<meta name="description" content="A simple Next.js waitlist template with Notion as CMS and Resend to send emails created with React Email and Upstash Redis for rate limiting. Deployed on Vercel."/>'), 'Missing or incorrect <meta name="description">');
   assert.ok(html.includes('<link rel="canonical" href="https://waitly.idee8.agency"/>') || html.includes('<link rel="canonical" href="https://waitly.idee8.agency/"/>'), 'Missing or incorrect <link rel="canonical">');

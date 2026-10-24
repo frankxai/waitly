@@ -1,0 +1,160 @@
+
+> nextjs-waitlist-template@0.1.0 start /app
+> next start
+
+   ▲ Next.js 15.5.24
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.2:3000
+
+ ✓ Starting...
+ ✓ Ready in 824ms
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
+ ⨯ Error: NOTION_DB is required to render the waitlist count
+    at j (.next/server/app/page.js:1:1885)
+    at stringify (<anonymous>) {
+  digest: '4183756347'
+}
