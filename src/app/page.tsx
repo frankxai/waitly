@@ -6,12 +6,12 @@ export const dynamic = "force-dynamic";
 
 export default async function Home() {
   const databaseId = process.env.NOTION_DB;
-
-  let waitlistPeople = 0;
-  if (databaseId) {
-    await connection();
-    waitlistPeople = await getNotionDatabaseRowCount(databaseId);
+  if (!databaseId) {
+    throw new Error("NOTION_DB is required to render the waitlist count");
   }
+
+  await connection();
+  const waitlistPeople = await getNotionDatabaseRowCount(databaseId);
 
   return <LandingPage waitlistPeople={waitlistPeople} />;
 }
