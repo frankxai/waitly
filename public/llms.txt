@@ -1,0 +1,6 @@
+# Waitly
+> Next.js + Notion Waitlist Template
+
+Quickly launch a sleek waitlist page for your next project! This template leverages the power of Next.js 15, uses Notion as a simple CMS, incorporates Upstash Redis for rate limiting, and sends emails via Resend with your custom domain.
+
+- [Waitly Home](https://waitly.idee8.agency/)
